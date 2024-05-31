@@ -2,8 +2,9 @@
   <apex:pageBlock title="Account Summary">
     <apex:pageBlockSection>
       Name: {! Account.Name }
-      <br /> Phone: {! Account.Phone } <br /> Revenue: {! Account.AnnualRevenue
-      } <br /> Industry: {! Account.Industry }
+      <br /> Phone: {! Account.Phone }
+      <br /> Revenue: {! Account.AnnualRevenue }
+      <br /> Industry: {! Account.Industry }
       <br />
     </apex:pageBlockSection>
   </apex:pageBlock>
